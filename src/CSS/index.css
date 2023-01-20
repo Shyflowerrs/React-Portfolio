@@ -4,7 +4,16 @@ body {
 h1{
   color: white;
 }
-
+#navigation
+{
+  background-color: white;
+  color:black;
+  height:5vw;
+  font-size:1em;
+}
+#navigation h1{
+  color:black;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
