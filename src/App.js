@@ -1,5 +1,5 @@
 
-import Main from './Components/Main'
+import Section from './Components/Section/index.js'
 import Navbar from './Components/Navbar/index';
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom"
 
@@ -9,7 +9,7 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Main/>}></Route>
+        <Route path="/" element={<Section/>}></Route>
       </Routes>
     </Router>
   );
