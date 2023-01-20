@@ -5,6 +5,7 @@ import React from "react";
 
 const Navbar = () => {
   const logo = require('../../assets/logo.png')
+  const resume = require('../../assets/Chelsea_Resume.pdf')
   return (
     <>
       <Nav>
@@ -27,7 +28,9 @@ const Navbar = () => {
           </NavLink>
         </NavMenu>
         <NavBtn>
-
+        <NavBtnLink to={resume} target = "_blank" activeStyle>
+          Resume
+        </NavBtnLink>
         </NavBtn>
       </Nav>
     </>
