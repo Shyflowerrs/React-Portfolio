@@ -1,5 +1,5 @@
 body {
- background-color: black;
+ background-color: rgb(31, 34, 50);
 }
 h1{
   color: white;
@@ -13,6 +13,10 @@ h1{
 }
 #navigation h1{
   color:black;
+}
+b{
+  color:#0f7173;
+  margin-right:2px;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
