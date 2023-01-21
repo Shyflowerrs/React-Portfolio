@@ -1,6 +1,7 @@
 
 import Section from './Components/Section/index.js'
 import Navbar from './Components/Navbar/index';
+import Header from './Components/Header/index';
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom"
 
 
@@ -8,8 +9,9 @@ function App() {
   return (
     <Router>
       <Navbar />
+      <Header />
       <Routes>
-        <Route path="/" element={<Section/>}></Route>
+        {/* <Route path="/" element={<Section/>}></Route> */}
       </Routes>
     </Router>
   );

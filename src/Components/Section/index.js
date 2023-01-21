@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import {MainSection, CardOne, CardParagraph, CardTwo} from './section.js'
-import { useNavigate } from "react-router-dom"
 import '../../CSS/index.css'
 const Section = () => {
   return (
