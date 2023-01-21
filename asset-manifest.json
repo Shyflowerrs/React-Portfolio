@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.ead088a1.css",
+    "main.js": "/React-Portfolio/static/js/main.ea546362.js",
+    "static/js/787.128fc6e9.chunk.js": "/React-Portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/Chelsea_Resume.pdf": "/React-Portfolio/static/media/Chelsea_Resume.419f3f8fde30b473e557.pdf",
+    "index.html": "/React-Portfolio/index.html",
+    "main.ead088a1.css.map": "/React-Portfolio/static/css/main.ead088a1.css.map",
+    "main.ea546362.js.map": "/React-Portfolio/static/js/main.ea546362.js.map",
+    "787.128fc6e9.chunk.js.map": "/React-Portfolio/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ead088a1.css",
+    "static/js/main.ea546362.js"
+  ]
+}
