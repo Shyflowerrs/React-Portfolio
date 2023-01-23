@@ -2,6 +2,10 @@ body {
  background-color: rgb(31, 34, 50);
  color:#fff;
 }
+*{
+margin:0;
+padding:0;
+}
 h1{
   color: white;
 }

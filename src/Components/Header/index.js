@@ -1,23 +1,28 @@
+import { textAlign } from '@mui/system';
 import React, { useState } from 'react'
 import '../../CSS/index.css'
 import {HeadSection, HeadParagraph} from './Header'
-const BiggerBold = {
-  fontSize: "40px",
-  color: "#a7a2a9",
+
+const SmallerBold = {
+  fontSize: "30px",
+  color: "#0f7173",
+  lineHeight:"30px",
+  textAlign: "center"
 };
-const head = {
-  fontSize: "80px",
-  color: "#FFF",
-  lineHeight: "20px"
-}
+const BiggerBold = {
+  fontSize: "30px",
+  color: "#a7a2a9",
+  lineHeight:"30px"
+};
+
 const Header = () => {
   return (
     <>
       <HeadSection>
         <HeadParagraph>
         <div class="text-box">
-          <p><b>Hello, welcome to my site</b></p>
-          <p><b style = {BiggerBold}> My name is</b></p>
+          <p><b style = {BiggerBold}>Hello, welcome to my website 😊</b> </p>
+          <p><b style = {SmallerBold}> My name is </b></p>
 
             <span>C</span>
             <span>H</span>
@@ -26,6 +31,7 @@ const Header = () => {
             <span>S</span>
             <span>E</span>
             <span>A</span>
+            <span>.</span>
           </div>
         </HeadParagraph>
       </HeadSection>
