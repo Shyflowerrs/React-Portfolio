@@ -1,5 +1,4 @@
 {
-
   "name": "my-portfolio",
   "homepage": "https://shyflowerrs.github.io/React-Portfolio",
   "version": "0.1.0",
@@ -20,10 +19,11 @@
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.1",
     "styled-components": "^5.3.6",
+    "typed.js": "^2.0.12",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",

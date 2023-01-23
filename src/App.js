@@ -11,7 +11,7 @@ function App() {
       <Navbar />
       <Header />
       <Routes>
-        {/* <Route path="/" element={<Section/>}></Route> */}
+        {/* <Route path="/React-Portfolio" element={<Section/>}></Route> */}
       </Routes>
     </Router>
   );

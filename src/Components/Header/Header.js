@@ -1,15 +1,14 @@
-import styled from 'styled-components'
+import styled from "styled-components"
 
-export const HeadSection = styled.header
-  `
+export const HeadSection = styled.header`
+  display:flex;
+  padding-top:200px;
   margin: auto;
-  width: 50vw;
-  padding: 10px;
-  line-height:10px
+  width: 50%;
+    align-items: center;
   `;
 
-  export const HeadParagraph = styled.section
-  `
-  margin:auto;
-  padding:100px;
+  export const HeadParagraph = styled.section`
+  margin-left:20%;
+
   `;
