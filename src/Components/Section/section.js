@@ -4,6 +4,8 @@ export const MainSection = styled.div`
 
   display: flex;
   width:45vw;
+  flex-flow: column-reverse nowrap;
+
   margin:auto;
   height:auto;
   padding:150px;
