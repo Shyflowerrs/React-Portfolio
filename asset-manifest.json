@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.cb1b6c31.css",
-    "main.js": "/React-Portfolio/static/js/main.9089e3a6.js",
+    "main.css": "/React-Portfolio/static/css/main.0d054019.css",
+    "main.js": "/React-Portfolio/static/js/main.dd0528d2.js",
     "static/js/787.128fc6e9.chunk.js": "/React-Portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/Chelsea_Resume.pdf": "/React-Portfolio/static/media/Chelsea_Resume.419f3f8fde30b473e557.pdf",
+    "static/media/chelsea.jpg": "/React-Portfolio/static/media/chelsea.888888f7b150451fc46a.jpg",
     "index.html": "/React-Portfolio/index.html",
-    "main.cb1b6c31.css.map": "/React-Portfolio/static/css/main.cb1b6c31.css.map",
-    "main.9089e3a6.js.map": "/React-Portfolio/static/js/main.9089e3a6.js.map",
+    "main.0d054019.css.map": "/React-Portfolio/static/css/main.0d054019.css.map",
+    "main.dd0528d2.js.map": "/React-Portfolio/static/js/main.dd0528d2.js.map",
     "787.128fc6e9.chunk.js.map": "/React-Portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb1b6c31.css",
-    "static/js/main.9089e3a6.js"
+    "static/css/main.0d054019.css",
+    "static/js/main.dd0528d2.js"
   ]
 }
