@@ -32,6 +32,7 @@ const Header = () => {
             <span>E</span>
             <span>A</span>
             <span>.</span>
+
           </div>
         </HeadParagraph>
       </HeadSection>

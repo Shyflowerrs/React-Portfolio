@@ -1,33 +1,37 @@
 import React, { useState } from 'react'
 import {MainSection, CardOne, CardParagraph, CardTwo} from './section.js'
 import '../../CSS/index.css'
+import { borderRadius } from '@mui/system';
+import { FormatLineSpacing } from '@mui/icons-material';
+
+
 const Section = () => {
+  const profile = require('../../assets/chelsea.jpg');
+  const photo = {
+    width:"400px",
+    height:"400px",
+    paddingLeft:"100px",
+    borderRadius:" 55% 10%",
+  };
   return (
     <>
       <MainSection>
         <CardOne>
           <CardParagraph>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ligula lorem, placerat eget ante tincidunt,
-            eleifend luctus turpis. Sed ultrices orci id tellus lacinia, nec sodales velit viverra.
-            Vestibulum egestas justo non nulla pellentesque, eget vulputate ante blandit. Curabitur vitae mi non sem imperdiet efficitur
-            sit amet malesuada lorem.
-            Aenean suscipit felis sem, ac interdum nulla facilisis id. Fusce hendrerit velit nec tellus pellentesque,
-            ac volutpat nibh luctus. Proin in efficitur massa. Nullam lorem elit, aliquam vitae sapien nec,
-            convallis suscipit nisl. Nulla mauris ligula, hendrerit eu sapien non, pulvinar tincidunt lectus.
-            Aliquam a ultricies massa, sed porta justo.
+          <p> I am a graduate of Business Informaton Technology at Red River Polytechnic, in December 2022.
+           In this program I learned alot! My passion for development grew. I have a love for puzzles and
+           problem solving,</p>
+
+          </CardParagraph>
+          <CardParagraph>
+          <p> which is what drew me to this career. I'm interested in both software and website
+           development.</p>
           </CardParagraph>
         </CardOne>
 
         <CardTwo>
           <CardParagraph>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ligula lorem, placerat eget ante tincidunt,
-              eleifend luctus turpis. Sed ultrices orci id tellus lacinia, nec sodales velit viverra.
-              Vestibulum egestas justo non nulla pellentesque, eget vulputate ante blandit. Curabitur vitae mi non sem imperdiet efficitur
-              sit amet malesuada lorem.
-              Aenean suscipit felis sem, ac interdum nulla facilisis id. Fusce hendrerit velit nec tellus pellentesque,
-              ac volutpat nibh luctus. Proin in efficitur massa. Nullam lorem elit, aliquam vitae sapien nec,
-              convallis suscipit nisl. Nulla mauris ligula, hendrerit eu sapien non, pulvinar tincidunt lectus.
-              Aliquam a ultricies massa, sed porta justo.
+             <img src={profile} style={photo}/>
             </CardParagraph>
         </CardTwo>
       </MainSection>

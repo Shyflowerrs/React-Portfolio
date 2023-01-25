@@ -52,7 +52,7 @@ span{
     }
   100%
     {
-      text-shadow: 0 0 30px #0f7173;
+      text-shadow: 0 0 30px #000000;
     }
 }
 span:nth-child(1)
@@ -82,4 +82,8 @@ span:nth-child(6)
 span:nth-child(7)
 {
   animation-delay: 3.5s;
+}
+span:nth-child(8)
+{
+  animation-delay: 4.0s;
 }
