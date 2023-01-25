@@ -10,31 +10,33 @@ const Section = () => {
   const photo = {
     width:"400px",
     height:"400px",
-    paddingLeft:"100px",
-    borderRadius:" 55% 10%",
+    paddingLeft:"50px",
+    borderRadius:" 50% 25%",
   };
   return (
     <>
-      <MainSection>
-        <CardOne>
-          <CardParagraph>
-          <p> I am a graduate of Business Informaton Technology at Red River Polytechnic, in December 2022.
-           In this program I learned alot! My passion for development grew. I have a love for puzzles and
-           problem solving,</p>
+      <div class="background-effect">
+        <MainSection>
+          <CardOne>
+            <CardParagraph>
+            <p> I am a graduate of Business Informaton Technology at Red River Polytechnic, in December 2022.
+            In this program I learned alot! My passion for development grew. I have a love for puzzles and
+            problem solving, which is what drew me to this career.</p>
 
-          </CardParagraph>
-          <CardParagraph>
-          <p> which is what drew me to this career. I'm interested in both software and website
-           development.</p>
-          </CardParagraph>
-        </CardOne>
-
-        <CardTwo>
-          <CardParagraph>
-             <img src={profile} style={photo}/>
             </CardParagraph>
-        </CardTwo>
-      </MainSection>
+            <CardParagraph>
+            <p>  I'm interested in both software and website development. I currently am working as A
+            Junior fullstack developer and I'm learning and improving alot!</p>
+            </CardParagraph>
+          </CardOne>
+
+          <CardTwo>
+            <CardParagraph>
+              <img src={profile} style={photo}/>
+              </CardParagraph>
+          </CardTwo>
+        </MainSection>
+      </div>
     </>
   )
 }

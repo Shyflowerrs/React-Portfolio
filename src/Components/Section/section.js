@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const MainSection = styled.div`
 
   display: flex;
-  width:40vw;
+  width:45vw;
   margin:auto;
   height:auto;
   padding:150px;
@@ -14,6 +14,8 @@ export const MainSection = styled.div`
 export const CardOne = styled.section`
   color:#FFF;
   font-size:22pt;
+  max-width:80%;
+  width:80%;
 `;
 
 
