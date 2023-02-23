@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
  background-color: rgb(31, 34, 50);
  color:#fff;
@@ -35,7 +39,6 @@ code {
   transform: translate(-50%,-50%);
 }
 span{
-  font-size: 100px;
   animation: mover 6s linear infinite;
   display: inline-block;
   color: #fff;

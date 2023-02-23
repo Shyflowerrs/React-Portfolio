@@ -18,8 +18,7 @@ const BiggerBold = {
 const Header = () => {
   return (
     <>
-      <HeadSection>
-        <HeadParagraph>
+{/*
         <div class="text-box">
           <p><b style = {BiggerBold}>Hello, welcome to my website 😊</b> </p>
           <p><b style = {SmallerBold}> My name is </b></p>
@@ -33,9 +32,7 @@ const Header = () => {
             <span>A</span>
             <span>.</span>
 
-          </div>
-        </HeadParagraph>
-      </HeadSection>
+          </div> */}
     </>
   )
 }
